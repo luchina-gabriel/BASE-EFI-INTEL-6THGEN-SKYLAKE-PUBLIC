@@ -6,6 +6,10 @@
 <br><br>
 🇧🇷 - Para download das EFIs BASEs, é necessário você ser membro de qualquer categoria no canal do YouTube e conectar seu Discord à sua conta YouTube para acesso à sala `#efi-base`;
 
+![youtube_connection](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-6THGEN-SKYLAKE-PUBLIC/assets/23700365/d4293abf-5619-4cdd-918c-bc0bb19869f4)
+<br>
+![efi-base-channel](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-6THGEN-SKYLAKE-PUBLIC/assets/23700365/0605bb04-224c-4824-a21e-6431bb3302c5)
+
 # Basic Info
 
 Note|Description
