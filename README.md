@@ -25,7 +25,7 @@ Last Supported OS|macOS 12 Monterey.
 
 - Opencore version: 1.0.8
 - Release date (OC/Kexts): 27/09/2026
-- Last Update Repository: 27/09/2026
+- Last Update Repository: 19/11/2026
 
 # Basic Steps
 
@@ -225,6 +225,19 @@ iMac17,1|NUC Systems, iGPU: HD 530 + R9 290.
 	- framebuffer-fbmem	- Uncomment if no BIOS options for iGPU memory.
 	- device-id
 		- Uncomment in case you have an P530, which is unsupported in macOS.
+
+# Special notes - For NVIDIA GPU
+
+boot-args
+- `nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -amfipassbeta`
+
+csr-active-config
+- `03080000`
+- `430A0000`
+
+Other adjustments
+- Kernel > Block > "Allow NullMoth Nvidia Driver" > Enabled
+- WhateverGreen removed or disabled
 		
 ### GPU-Specific `boot-args`
 Parameter|Description
